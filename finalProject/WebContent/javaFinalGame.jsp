@@ -366,10 +366,8 @@ onload=setup;
 </head>
 <body>
 
-<img id="head" src="blackjack.jpg" style="width:80%; height: 300px;"></img>
+<img id="head" src="blackjack.jpg"></img>
 
-<h1 id="headTitle">Blackjack Party!</h1>
-<input id="activeDeck" type="text" style="display:none" value="<%= session.getAttribute("activeDeck") %>" />
 <ul>
 	
   <li><a href="javaFinalHome.jsp">My Account</a></li>
@@ -384,6 +382,13 @@ onload=setup;
  %>
   
  </ul>
+ 
+<h1 id="headTitle">Blackjack Party!</h1>
+ 
+<input id="activeDeck" type="text" style="display:none" value="<%= session.getAttribute("activeDeck") %>" />
+ 
+ 
+
 <input type='text' id='identifier' value='' style='display:none' />
 
 

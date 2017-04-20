@@ -4,9 +4,15 @@
 <html>
 <head>
 <title>Blackjack Party!</title>
-<img id="head" src="blackjack.jpg" style="width:80%; height: 300px;"></img>
 
-<h1 id="headTitle">Blackjack Party!!!!</h1>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="javaFinalStyle.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<img id="head" src="blackjack.jpg"></img>
 
 <ul>
 	
@@ -20,14 +26,17 @@
      } else { %><li><a href="javaFinalLogin.jsp">Sign In</a></li> <%
      }
  %>
+ 
+ 
      
   
  </ul>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link href="javaFinalStyle.css" rel="stylesheet" type="text/css">
-
-</head>
-<body>
+ 
+ <h1 id="headTitle">Blackjack Party!!!!</h1>
+ </br>
+ <h1>Confused how to play?  Reference this table</h1>
+ <img  src="blackjackStrategy.gif" style="width:80%; height: 600px;"></img>
+ 
 <h1>Gambling problem? We are here to help</h1>
 
 <img  src="gamblinghelp.jpg" style="width:80%; height: 300px;"></img>

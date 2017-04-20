@@ -54,7 +54,6 @@ return false;
 
 <meta charset="utf-8">
 <title>Blackjack Party!</title>
-<img id="head" src="blackjack.jpg" style="width:80%; height: 300px;"></img>
 
 <%  
 if (session.getAttribute("user") != null) {  
@@ -62,7 +61,12 @@ if (session.getAttribute("user") != null) {
 } else { %><jsp:forward page="javaFinalLogin.jsp"/><%
 }
 %>
-<h1 id="headTitle">Blackjack Party!!!!</h1>
+
+<link href="javaFinalStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<img id="head" src="blackjack.jpg"></img>
+
 
 <ul>
 	
@@ -79,9 +83,10 @@ if (session.getAttribute("user") != null) {
      
   
  </ul>
-<link href="javaFinalStyle.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+
+<h1 id="headTitle">Blackjack Party!!!!</h1>
+
+
 <!-- Welcomes the user, shows their credits, and theme packs owned -->
  <h2>Welcome <%= session.getAttribute("user") %>! </h2></br>
   <h2>You have:  <%= session.getAttribute("credits") %> credits </h2></br>

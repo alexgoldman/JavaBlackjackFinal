@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Blackjack Party Login</title>
+<title>Blackjack Party Store</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <script>
@@ -54,14 +54,22 @@ return false;
 	
 }
 </script>
-<img id="head" src="blackjack.jpg" style="width:80%; height: 300px;"></img>
  <%  
      if (session.getAttribute("user") != null) {  
         %>  <%
      } else { %> <jsp:forward page="javaFinalLogin.jsp"/><%
      }
  %>
-<h1 id="headTitle">Blackjack Party!</h1>
+
+<link href="javaFinalStyle.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+<img id="head" src="blackjack.jpg"></img>
+
+
+
 <ul>
 	
   <li><a href="javaFinalHome.jsp">My Account</a></li>
@@ -76,11 +84,8 @@ return false;
  %>
   
  </ul>
-<link href="javaFinalStyle.css" rel="stylesheet" type="text/css">
-
-
-</head>
-<body>
+ 
+ <h1 id="headTitle">Blackjack Party!</h1>
 <!--  If the item is already purchase display as purchased, else show the item as available for purchase -->
 <%  
      if (session.getAttribute("purchase1") != null) {  

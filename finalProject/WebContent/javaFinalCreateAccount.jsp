@@ -5,9 +5,15 @@
 <head>
 <meta charset="utf-8">
 <title>Blackjack Party Login</title>
-<img id="head" src="blackjack.jpg" style="width:80%; height: 300px;"></img>
 
-<h1 id="headTitle">Blackjack Party!</h1>
+
+<link href="javaFinalStyle.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+<img id="head" src="blackjack.jpg" ></img>
+
 <ul>
 	
   <li><a href="javaFinalHome.jsp">My Account</a></li>
@@ -16,11 +22,9 @@
   <li><a href="javaFinalHelp.jsp">Help</a></li>
   
  </ul>
-<link href="javaFinalStyle.css" rel="stylesheet" type="text/css">
+ 
+<h1 id="headTitle">Blackjack Party!</h1>
 
-
-</head>
-<body>
 <form method="post" action="CreateAccountServlet">
 <h3>First Name: 
 <input required name="fname" type="text"/></h3>

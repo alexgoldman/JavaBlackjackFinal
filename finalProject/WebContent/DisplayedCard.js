@@ -1,6 +1,5 @@
-/* This file has been put into the public domain by its
- * author, David Eck (http://math.hws.edu/eck), with no
- * guarantees or claims about what it might be good for.
+/* 
+ * Credit to David Eck (http://math.hws.edu/eck)
  */
 
 function DisplayedCard(divid, card) {
